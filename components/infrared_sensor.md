@@ -5,6 +5,8 @@ PINs:
 - GND
 - VCC
 
+To guard the component, a 100 Ohm resistor and a 4.7 mikroF can be used. Connect the resistor between 5V of the arduino and VCC of the sensor. Connect the capacitor between GND and VCC of the sensor.
+
 ## Arduino Example
 
 ```arduino
