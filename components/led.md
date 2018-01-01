@@ -2,6 +2,7 @@
 
 - Anode (+): long leg
 - Cathode (-): short leg
+- depending on type, 1-50mA
 
 ## Arduino Example
 
