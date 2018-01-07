@@ -26,7 +26,7 @@ Happens when multiple `HIGH`/`LOW` signals are quickly sent after each other sho
 
 ### Solutions
 
-Hardware: using a resistor and a capacitor a low-pass filter can be implemented (use a resistor of 10kOhm and a capacitor of 22-100nF).
+Hardware: using a resistor and a capacitor a low-pass filter can be implemented (use a resistor of 10kOhm and a capacitor of 22-100nF). When the button is no longer pressed, the capacitor is delaying the shift to GND (when a pull down resistor is used), as it is unloading its energy and thus keeping up `HIGH`.
 
 Software: Use library [Bounce](http://www.arduino.cc/playground/Code/Bounce).
 
