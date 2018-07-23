@@ -1,6 +1,6 @@
 # Soil Moisture Sensor
 
-Example model no.: `HL-69`
+Example model no.: `HL-69`, `VG400`
 
 ## Arduino Example
 

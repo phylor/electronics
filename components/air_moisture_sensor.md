@@ -1,6 +1,6 @@
 # Air Moisture Sensor
 
-Example model no.: `DHT11`
+Example model no.: `DHT11` or `DHT22`
 
 - measures moisture and temperature
 - usually 3 or 4 pins
