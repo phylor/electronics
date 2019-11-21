@@ -38,3 +38,27 @@ void loop() {
   serialPort.print("0  1");
 }
 ```
+
+## 4-digit display YY2841AS
+
+- common cathode
+- connect digits to GND
+- between GND and each digit, place a 1k resistor
+
+segments:
+```
+     A
+     _
+F  |   | B
+G    _
+E  |   | C
+  D  _   . DP
+```
+
+pins:
+```
+DIG1   A    F  DIG2 DIG3   B
+  x    x    x    x    x    x
+  x    x    x    x    x    x
+  E    D   DP    C    G   DIG4
+```
