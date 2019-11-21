@@ -44,6 +44,7 @@ void loop() {
 - common cathode
 - connect digits to GND
 - between GND and each digit, place a 1k resistor
+- probably uses 1.8V and 20mA
 
 segments:
 ```
